@@ -1,0 +1,159 @@
+/* RESET */
+
+
+
+
+*,
+*:before ,
+*:after{
+	margin : 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header , footer , figure , figcaption , nav , section {
+	display : block ;
+}
+
+ol , ul {
+	list-style : none ;
+}
+
+a {
+	text-decoration: none ;
+	color : #327dfd;
+}
+
+h1{
+
+	margin : 5px auto ;
+	font-family: 'PT Sans', sans-serif;
+}
+
+h2{
+	
+font-family: 'Roboto', sans-serif;
+	
+
+}
+
+/*GERAL */
+
+body {
+
+	color      : #384252;
+	font-size  : 1rem   ;
+	line-height: 1.6    ;
+	font-weight: 400    ;
+	
+}
+
+p{
+	
+	max-width :1350px;
+	margin : 15px auto ;
+	padding : 0 2% ;
+	font-family: 'Roboto', sans-serif;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 20px;
+}
+
+
+/* LAYOUT */
+
+
+
+
+
+.navbar{
+	  top: -180px;
+	height :80 ;
+	line-height: 80 px ;
+
+	  position: relative;
+  top: -50px;
+  
+  background-color: red;
+  
+	
+}
+
+.contato{
+	  top: -20px;
+	  font-family: 'Roboto', sans-serif;	 
+}
+/**/
+
+.text-center{
+	text-align : center ;
+	 
+}
+
+.float-left{
+	float : left ;
+}
+ 
+.float-right{
+	float : right ;
+}
+
+.header{
+	margin : 5rem 0 ;
+		
+}
+
+.foto_perfil{
+  
+  position: relative;
+  top: -20px;
+  left: 50px;
+  background-color: white;
+  border-radius: 50%;
+  /*width: 500px;*/
+	color : red ; 
+
+}
+.container{
+	max-width :1350px;
+	margin : 0 auto ;
+	padding : 0 2% ;
+
+}
+
+@media screen and (max-width: 500px) {
+  .foto_perfil {
+  	
+  	 width: 300px;
+    height: 300px;
+
+  }
+  P{
+  	color : red ;
+  }
+}
+
+
+.hobbies{top:10px   ;left: 200px ;}
+
+.ico{
+	position: relative;
+	background-color: #314254;
+  	border-radius: 50%;
+  	width: 110px ;
+   	height: 110px;
+	left: 500px;
+}
+
+.primeiro { top:10px   ;left: 400px ;}
+.segundo  { top:20px   ;left: 400px ;}
+.terceiro { top:-90px  ;left: 530px ;}
+.quarto   { top:-320px ;left: 530px ;}
+.quinto   { top:-430px ;left: 660px ;}
+.sexto    { top:-420px ;left: 660px ;}
+.setimo   { top:-530px ;left: 790px ;}
+.oitavo   { top:-760px ;left: 790px ;}
+
+
+
+
+
