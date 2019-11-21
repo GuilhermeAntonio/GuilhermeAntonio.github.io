@@ -1,0 +1,54 @@
+.btn{
+			margin-bottom:  30px;
+			color: white;
+			background-color:#5f4b8b; 
+		}
+
+		label{
+			margin-top: 20px;
+		}
+		body{
+			color: #5f4b8b;
+		}
+		a{	color: #5f4b8b;}
+		a:hover{
+			color: #5f4b8b;
+			
+		}
+		 
+
+		footer{
+			margin-bottom: 0px;
+			background-color: #5f4b8b;
+		}
+
+		.code{
+			position: relative; margin-left: 10px; margin-top: 0,5px;
+		}
+
+		.head-box{
+			background-color: #5f4b8b; height: 50px;
+		}
+
+		.style_txt-1{
+			color: #5f4b8b;
+		}
+		.style_txt-2{
+			color: white;
+		}
+
+
+		::-webkit-scrollbar-track {
+				background-color: #5f4b8b;
+		}
+		
+		::-webkit-scrollbar {
+    		width: 6px;
+    		background: #5f4b8b;
+		}
+		
+		::-webkit-scrollbar-thumb {
+    		background: #4a3a6e;
+		}
+
+
