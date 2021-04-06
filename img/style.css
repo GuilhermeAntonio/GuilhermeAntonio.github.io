@@ -1,0 +1,153 @@
+/*Fonte*/
+@font-face { font-family:Poppins;  src: url('fonts/Poppins-Medium.ttf'); } 
+
+:root {
+/*Cores*/
+	--azul:  #1d8fce;
+	--cinza: #828282;
+	--cinzaClaro: #dedcdc;
+}
+
+html,body {height: 100%;
+	font-family: Poppins;
+	color: var(--cinza);	
+}
+
+h2 {color:  var(--azul);}
+label {color: var(--azul);}
+a{text-decoration:none;font-size: 14px;color: var(--cinza);}
+
+
+/*Logos*/
+
+.boxLogo{
+	background-image:url(../imagens/luizalabs.jpg) !important; 
+	background-size: cover;
+}
+
+.boxLogo hr{color: white;width: 40%;}
+
+.logoEsquerda{
+	margin-top: 240px;
+	animation: animacao 4.5s;
+}
+
+.logoDireita {
+	display: none;
+	animation: animacao 4.5s;
+}
+.logoDireita hr{color: var(--cinza);width: 80%;}
+
+
+/*Formulário*/
+
+.formLogin {
+	margin-top: 80px; 
+	margin-left: 5%;
+	width: 90%;
+	animation: animacao 2.5s;
+}
+
+.input-field{
+
+	height: 45px;
+	width: 100%;	
+	color: var(--cinza);
+	outline: none;
+	outline-style: none;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: solid var(--cinza) 1px;
+	padding: 3px 10px;
+	margin-bottom:20px; 
+
+}
+
+::-webkit-input-placeholder {color:var(--cinzaClaro)}
+
+/*Botão*/
+
+.btn{	
+	background: var(--azul);
+	border-radius: 0px;
+	color: white;
+	height: 45px;
+	width: 100%;
+	margin-bottom:20px; 
+}
+
+.btn:active{	
+	color: var(--azul);
+	border-color: var(--azul);
+	background-color: transparent;
+}
+
+/*Mídias Sociais*/
+
+.socialMediaBox a:hover i{color: var(--azul);}
+.socialMediaBox a:hover{border: 1px solid var(--azul); }
+
+
+.socialMediaBox a {
+	border: 1px solid var(--cinza);
+	border-radius: 50%;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 5px;
+	height: 40px;
+	width: 40px;
+	margin-top: 10px;
+}
+
+/*Animação*/
+
+@keyframes animacao{
+
+	from {opacity: 0%;}
+	to {opacity: 100%;}
+
+}
+
+/*Style mobile*/
+
+@media (max-width: 768px) {
+
+	.logoDireita{
+		margin-top: 20px;
+		margin-left: 20px;
+		display: block;
+	}
+
+	.formLogin{	margin-top: 40px;}
+
+}
+
+
+
+
+/*scrollbar*/
+
+::-webkit-scrollbar-track {background-color: var(--cinzaClaro)}
+::-webkit-scrollbar {width: 6px;background: var(--azul)}
+::-webkit-scrollbar-thumb {background: var(--azul)}
+
+
+.navbar {background-color: red;}
+.navbar a{color: white;}
+
+.navbar{background: #1d8fce;}
+.navbar a{color: white;}
+
+h1{
+	color:#1d8fce;
+	animation: animacao 2.5s; 
+
+
+}
+.magalu{
+
+
+	margin-top: 130px;
+}
